@@ -202,11 +202,7 @@ public class apiFile {
         return result;
     }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
+
 
     @GetMapping("/getEmployeeAttendanceDetails")
     public List<Map<String, Object>> getEmployeeAttendanceDetails() {
@@ -245,7 +241,6 @@ public class apiFile {
 
         return rows;
     }
->>>>>>> Stashed changes
 
     @PostMapping("/getStandardPayrolls")
     public List<Map<String, Object>> getStandardPayrolls(@CookieValue(name = "sessionId", required = false) String sessionId) {
